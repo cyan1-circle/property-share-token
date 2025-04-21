@@ -1,0 +1,16 @@
+{
+    "name": "prop-contract-listener",
+    "version": "1.0.0",
+    "description": "A listener for the event on the deployed PropertyToken contract",
+    "main": "listener.js",
+    "scripts": {
+      "start": "node listener.js"
+    },
+    "dependencies": {
+      "ethers": "^6.7.0",
+      "dotenv": "^16.0.3"
+    },
+    "author": "",
+    "license": "MIT"
+  }
+  
