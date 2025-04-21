@@ -1,14 +1,10 @@
 ## property-share-token
 
-** PropertyShareToken is a smart contract, which build for new hire onboarding project. **
+**PropertyShareToken is a smart contract, which build for new hire onboarding project**
 
-PropertyShareToken (PSH) is a revenue-sharing token designed for use in property or
-asset-backed smart contracts. The PSH is represents the ownership or participant right
-in a shared property, where property will generate the profit/rent in USDC. The holders is 
-entitled to receive periodic distributions in USDC based on their token holdings.
+PropertyShareToken (PSH) is a revenue-sharing token designed for use in property or asset-backed smart contracts. The PSH is represents the ownership or participant right in a shared property, where property will generate the profit/rent in USDC. The holders is  entitled to receive periodic distributions in USDC based on their token holdings.
 
-The token integrates holder tracking, USDC fund distribution, and community-based
-approval mechanisms.
+The token integrates holder tracking, USDC fund distribution, and community-based approval mechanisms.
 
 ## Usage
 
@@ -42,7 +38,7 @@ $ forge snapshot
 $ forge script script/PropertyShareToken.s.sol:DeployPropertyShareToken --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
-### Run smart contract
+### Run Smart Contract
 
 ```shell
 # get the total supply
