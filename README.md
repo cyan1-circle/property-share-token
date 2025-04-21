@@ -26,21 +26,25 @@ $ forge test
 $ forge fmt
 ```
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
 ### Deploy
 
 ```shell
 $ forge script script/PropertyShareToken.s.sol:DeployPropertyShareToken --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
+### Start Event Listener
+Update the `.env` file  in `event-listener` folder with the rpc_url and contract address, then run below:
+```shell
+$ cd event-listener
+$ npm install
+$ npm run start
+```
 
 ### Run Smart Contract
 
 ```shell
+# update the env file
+source .env
+
 # get the total supply
 $ cast call <contract_address> "totalSupply()" --rpc-url $RPC_URL
 
